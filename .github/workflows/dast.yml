@@ -10,7 +10,7 @@ jobs:
       - name: Run ASoC DAST Scan
         uses: HCL-TECH-SOFTWARE/appscan-dast-action@main
         with:
-          baseurl:  https://cloud.appscan.com
+          baseurl:  https://cloud.appscan.com/eu
           asoc_key: ${{secrets.ASOC_KEY}}
           asoc_secret: ${{secrets.ASOC_SECRET}}
           application_id: 6abb283f-79d3-4952-9d9b-32390a8dd01e
